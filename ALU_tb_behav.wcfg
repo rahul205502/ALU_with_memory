@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ALU_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ALU_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="160000001fs"></ZoomEndTime>
+      <Cursor1Time time="211000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="111"></NameColumnWidth>
+      <ValueColumnWidth column_width="86"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/ALU_tb/A_tb" type="array">
+      <obj_property name="ElementShortName">A_tb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A_tb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ALU_tb/B_tb" type="array">
+      <obj_property name="ElementShortName">B_tb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B_tb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ALU_tb/opcode_tb" type="array">
+      <obj_property name="ElementShortName">opcode_tb[2:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode_tb[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ALU_tb/Y_tb" type="array">
+      <obj_property name="ElementShortName">Y_tb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_tb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ALU_tb/c_tb" type="logic">
+      <obj_property name="ElementShortName">c_tb</obj_property>
+      <obj_property name="ObjectShortName">c_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ALU_tb/zero_flag_tb" type="logic">
+      <obj_property name="ElementShortName">zero_flag_tb</obj_property>
+      <obj_property name="ObjectShortName">zero_flag_tb</obj_property>
+   </wvobject>
+</wave_config>
